@@ -16,3 +16,6 @@ async def transcript(id: str):
         if isinstance(e, HTTPException):
             raise e
         raise HTTPException(status_code=500, detail="Error while fetching transcription:"+str(e))
+@router_yt.get("/")
+async def askQuestion(question: str):
+    return {"question": question}
