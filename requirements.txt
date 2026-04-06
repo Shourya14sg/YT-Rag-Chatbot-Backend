@@ -1,0 +1,8 @@
+youtube-transcript-api
+python-dotenv
+uvicorn
+langchain
+langchain-community
+openai
+langchain-openai
+faiss-cpu
